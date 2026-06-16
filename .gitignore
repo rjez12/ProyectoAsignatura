@@ -37,3 +37,26 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Archivos de configuración e índices de IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+gen/
+
+# Compilados y empaquetados de Java
+*.class
+target/
+*.war
+*.ear
+
+# CONFIGURACIÓN LOCAL (Evita que choquen las contraseñas de PostgreSQL)
+src/main/resources/META-INF/persistence.xml
+xava.properties
+backend.properties
+
+# Archivos de sistema y logs
+*.log
+.DS_Store
+Thumbs.db
