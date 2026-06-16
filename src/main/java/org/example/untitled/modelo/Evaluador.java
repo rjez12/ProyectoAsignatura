@@ -25,4 +25,15 @@ public class Evaluador {
     @Column(length = 100)
     @Required
     private String especialidad;
+
+    private int capacidad;
+    private String nombre;
+
+    public int getCapacidad() {
+        return this.capacidad;
+    }
+
+    public String getNombre() {
+        return this.nombre;
+    }
 }

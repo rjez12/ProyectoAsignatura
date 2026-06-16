@@ -32,5 +32,14 @@ https://github.com/openxava/openxava/blob/master/openxavatest/src/main/resources
     	</action>
 	</controller>    
     -->
-    
+
+        <controller name="Asignacion">
+
+            <action name="validarEvaluador"
+                    mode="detail"
+                    class="org.example.untitled.acciones.ValidarEvaluadorAction"
+                    image="images/check.png"> </action>
+
+        </controller>
+
 </controllers>
