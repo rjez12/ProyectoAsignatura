@@ -1,3 +1,11 @@
-/*
-Put here your own style
-*/
+/* Ejemplo de lo que Jimmy puede poner en custom.css */
+.xava_button {
+    border-radius: 8px;
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px 20px;
+}
+.xava_view {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 12px;
+}

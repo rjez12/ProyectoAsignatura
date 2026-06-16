@@ -16,7 +16,7 @@ public class Evaluador {
 
     @Column(length = 100)
     @Required
-    private String nombres;
+    private String nombre;
 
     @Column(length = 100)
     @Required
@@ -27,7 +27,6 @@ public class Evaluador {
     private String especialidad;
 
     private int capacidad;
-    private String nombre;
 
     public int getCapacidad() {
         return this.capacidad;
